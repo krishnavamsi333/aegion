@@ -1,0 +1,18 @@
+# Normalize text files
+* text=auto
+
+# Help GitHub detect KiCad layout files
+*.kicad_pcb linguist-detectable=true
+
+# Exclude generated files from language stats
+bom/ibom.html linguist-generated=true
+
+# Exclude STM32 vendor code from language stats
+firmware/TargatedSprayer/Drivers/** linguist-vendored=true
+
+# Exclude generated startup code
+firmware/TargatedSprayer/Core/Startup/** linguist-generated=true
+
+# Documentation
+docs/** linguist-documentation=true
+manual/** linguist-documentation=true
